@@ -200,7 +200,7 @@ print(f"✅ Scraping completed! Results saved to {output_csv}")
 
 
 # === 🔹 CONFIGURATION ===
-CREDENTIALS_FILE = "festive-avenue-452901-a8-787f4b9542be.json"
+CREDENTIALS_FILE = os.getenv("GOOGLE_CREDENTIALS")
 SPREADSHEET_ID = "1lHnsqMM94omtG_WcXhixVPluETrFtZBcRJ-Hpdag5mM"
 SHEET_NAME = "redfin_2025-03-01-22-36-12"
 CSV_FILE = "/tmp/redfin.csv"
