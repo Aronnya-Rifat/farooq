@@ -1,0 +1,7 @@
+bs4==0.0.2
+gspread==6.2.0
+pandas==2.2.3
+protobuf==6.30.2
+Requests==2.32.3
+selenium==4.30.0
+webdriver_manager==4.0.2

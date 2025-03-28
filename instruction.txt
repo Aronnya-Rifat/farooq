@@ -1,0 +1,17 @@
+MAKE SURE YOU DONT DELETE "festive-avenue-452901-a8-787f4b9542be" file and is in the same directory as main.py. it is the googlesheets api file
+
+
+1. OPEN main.py in notes or any editor.
+
+2. Change the Folder path to where you have saved the main.py
+
+3. Add "aronnya@festive-avenue-452901-a8.iam.gserviceaccount.com" email to your googlesheets sharing with editor perms.
+
+4. Open command prompt and go to your files directory and type:
+
+pip install -r requirements.txt
+
+6. Run the script:
+
+python main.py
+
