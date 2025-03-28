@@ -20,7 +20,7 @@ from datetime import datetime
 import os
 
 ##### WHAT YOU NEED TO UPDATE #####
-folder_path = r"/Users/fs/Downloads/farooq_upwork" #its where your script is and also need to keep it in r"".
+folder_path = r"/tmp" #its where your script is and also need to keep it in r"".
 
 #####
 
@@ -133,8 +133,8 @@ else:
     print("No CSV files found in the folder.")
 
 # 🎯 Input CSV file path
-input_csv = "redfin.csv"  # Change to your CSV file name
-output_csv = "redfin.csv"
+input_csv = "/tmp/redfin.csv"  # Change to your CSV file name
+output_csv = "/tmp/redfin.csv"
 
 # 🔥 Set up Headers (Simulating a real browser)
 headers = {
@@ -203,7 +203,7 @@ print(f"✅ Scraping completed! Results saved to {output_csv}")
 CREDENTIALS_FILE = "festive-avenue-452901-a8-787f4b9542be.json"
 SPREADSHEET_ID = "1lHnsqMM94omtG_WcXhixVPluETrFtZBcRJ-Hpdag5mM"
 SHEET_NAME = "redfin_2025-03-01-22-36-12"
-CSV_FILE = "redfin.csv"
+CSV_FILE = "/tmp/redfin.csv"
 
 # === 🔹 Authenticate and Access Google Sheets ===
 creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=["https://www.googleapis.com/auth/spreadsheets"])
@@ -346,7 +346,7 @@ else:
     print("✅ No updates needed.")
 
 
-file = 'redfin.csv'
+file = '/tmp/redfin.csv'
 if(os.path.exists(file) and os.path.isfile(file)):
   os.remove(file)
   print("file deleted")
